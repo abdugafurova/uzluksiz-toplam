@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="adminbody">
+    <!-- <input type="number" name="size" id="size" placeholder="Size of numbers"> -->
+    <form>
+        <div class="form-group">
+          <label for="formControlRange">Size of numbers</label>
+          <input type="range" class="form-control-range" id="formControlRange">
+        </div>
+    </form>
+    <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="number" class="form-control" id="floatingInputGrid">
+            <label for="floatingInputGrid">Min numebr</label>
+          </div>
+        </div>
+        <div class="col-md">
+            <div class="form-floating">
+              <input type="number" class="form-control" id="floatingInputGrid">
+              <label for="floatingInputGrid">Max numebr</label>
+            </div>
+          </div>
+      </div>
+    <!-- <input type="number" name="num1" id="num1" placeholder="Min number">
+    <input type="number" name="num2" id="num2" placeholder="Max number"> -->
+    <button type="submit" onclick="randomNumbers()">Random</button>
+    
+</body>
+<script src="./script.js"></script>
+</html>
